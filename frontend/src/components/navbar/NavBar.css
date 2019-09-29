@@ -1,0 +1,36 @@
+
+.navbar{
+   /* display: flex; */
+   /* flex-direction: row; */
+   /* justify-content: flex-end; */
+   text-align: right;
+   align-items: center;
+   font-size: 2vw;
+   padding: 20px;
+   margin-right: 10px;
+}
+
+.nav-item{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 30px;
+
+}
+
+.nav-item#home {
+    color: green; 
+}
+
+.nav-item:link {
+    text-decoration: none;
+    color: #787877;
+}
+
+.nav-item:visited {
+    text-decoration: none;
+    color: #787877;
+}
+
+.nav-item:hover {
+    color: green;
+}
