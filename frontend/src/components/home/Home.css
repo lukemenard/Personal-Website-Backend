@@ -1,3 +1,28 @@
 .home {
-    color: red;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(87, 87, 87, 0.75);
+    font-size: 3vw;
+    border: 5px solid gray;
+    font-family: 'Merriweather', serif;
+    z-index: 1;
+}
+
+.text-box {
+    color: #fff;
+    align-items: center;
+    width: 100%;
+    float: left;
+    padding-left: 50px;
+}
+
+.photo {
+    position: absolute;
+    width: auto;
+    height: 300px;
+    top: 100%;
+    /* float: right; */
 }

@@ -1,11 +1,19 @@
 import React from 'react';
 import './Home.css'
+import ExpertiseContainer from '../expertise/ExpertiseContainer'
+import Photo from '../../Assets/Luke.jpg'
 
 const Home = () => {
   return (
-    <header className="home">
-      <h1>Luke Menard</h1>
-    </header>
+    <div>  
+      <div className="home">
+        <div className="text-box">
+          <h1 id="home">Luke Menard</h1>
+          <h3 id="home">Developer. Conservationist. Tired.</h3>
+        </div>
+      </div>
+      <img className="photo" src={Photo} alt=""/>
+    </div>
   );
 };
 

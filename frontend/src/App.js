@@ -14,7 +14,7 @@ import Home from './components/home/Home'
 const App = (props) => {
   return (
     <Router>
-    <NavContainer />
+      <NavContainer />
       <div className="Routes">
         <Route path="/" component={Home} />
         <Route exact path='/experience' component={ExperienceContainer} />
@@ -23,7 +23,6 @@ const App = (props) => {
         <Route exact path="/contact" component={ContactContainer} />
       </div>
     </Router>
-
   );
 }
 

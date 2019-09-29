@@ -1,8 +1,23 @@
-body {
+body, html {
     margin: 0;
     padding: 0;
 }
 
+.hero-image {
+    background-image: url('./Assets/SL.jpeg');
+    height: 2000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0
+}
+
 #root {
     text-align: center;
+}
+
+h3#home {
+    color: orange;
+    font-family: 'Montserrat', sans-serif;
 }
