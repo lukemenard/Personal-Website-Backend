@@ -1,0 +1,12 @@
+footer {
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    font-size: 2vw;
+    padding: 20px;
+    border-top: 5px solid darkolivegreen;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+ }

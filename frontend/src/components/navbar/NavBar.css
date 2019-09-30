@@ -1,14 +1,19 @@
 .navbar{
+   display: flex;
    text-align: right;
    align-items: center;
    font-size: 2vw;
    padding: 30px;
-   border-bottom: 5px solid green;
+   border-bottom: 5px solid darkolivegreen;
    background-color: white;
    position: fixed;
    width: 100%;
    right: 0;
    z-index: 2;
+}
+
+.nav-links {
+    float: right;
 }
 
 .nav-item{
@@ -19,7 +24,7 @@
 }
 
 .nav-item#home {
-    color: green;
+    color: darkolivegreen;
     font-weight: 1000;
 }
 
@@ -34,11 +39,12 @@
 }
 
 .nav-item:hover {
-    color: green;
+    color: darkolivegreen;
     padding: 5px;
-    outline: 4px solid green;
+    outline: 4px solid darkolivegreen;
 }
 
-.social-media {
+.logo {
+    height: 5vw;
     float: left;
 }

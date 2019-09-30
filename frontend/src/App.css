@@ -16,8 +16,3 @@ body, html {
 #root {
     text-align: center;
 }
-
-h3#home {
-    color: orange;
-    font-family: 'Montserrat', sans-serif;
-}
