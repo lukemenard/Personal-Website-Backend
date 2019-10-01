@@ -16,7 +16,7 @@
     float: right;
 }
 
-.nav-item{
+.nav-item, .nav-item-resume{
     margin-top: 30px;
     margin-left: 30px;
     width: 30px;
@@ -33,12 +33,19 @@
     color: #787877;
 }
 
-.nav-item:visited {
+.nav-item-resume {
+    text-decoration: none;
+    color: #787877;
+    /* box-shadow: 2px 2px 2px 1px darkolivegreen; */
+    padding: 4px;
+}
+
+.nav-item:visited, .nav-item-resume:visited {
     text-decoration: none;
     color: #787877;
 }
 
-.nav-item:hover {
+.nav-item:hover, .nav-item-resume:hover {
     color: darkolivegreen;
     padding: 5px;
     outline: 4px solid darkolivegreen;

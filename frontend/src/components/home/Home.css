@@ -14,12 +14,14 @@
     font-family: 'Merriweather', serif;
     float: left;
     padding-right: 3vw;
+    color: white;
 }
 
 #home-name-middle {
     font-size: 10vw;
     font-family: 'Merriweather', serif;
     padding-right: 0px;
+    color: white;
 }
 
 #home-name-period {
@@ -34,6 +36,7 @@
     font-family: 'Merriweather', serif;
     float: right;
     padding-right: 50px;
+    color: white;
 }
 
 #home-title {

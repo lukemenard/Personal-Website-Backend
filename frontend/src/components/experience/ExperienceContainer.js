@@ -20,7 +20,7 @@ export default class ExperienceContainer extends Component {
         }))
     }
 
-    addExperienceCard = () => {
+    addExperienceCardList = () => {
         return(
             <div>
                 <ExperienceCardList experiences={this.state.experiences}/>
@@ -30,7 +30,7 @@ export default class ExperienceContainer extends Component {
 
     render() {
         return (
-            this.addExperienceCard()
+            this.addExperienceCardList()
         )
     }
 }

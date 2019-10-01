@@ -25,6 +25,7 @@ ActiveRecord::Schema.define(version: 2019_09_30_194057) do
     t.string "description2"
     t.string "description3"
     t.string "description4"
+    t.string "image"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

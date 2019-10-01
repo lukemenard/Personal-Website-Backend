@@ -10,6 +10,7 @@ class CreateExperiences < ActiveRecord::Migration[6.0]
       t.string :description2
       t.string :description3
       t.string :description4
+      t.string :image
 
       t.timestamps
     end

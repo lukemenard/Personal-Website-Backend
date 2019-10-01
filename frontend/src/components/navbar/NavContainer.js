@@ -21,12 +21,7 @@ const NavContainer = () => {
             >
                 Experience
             </NavLink>
-            <NavLink
-                className="nav-item"
-                to="/expertise"
-            >
-                Expertise
-            </NavLink>
+
             <NavLink
                 className="nav-item"
                 to="/portfolio"
@@ -39,6 +34,14 @@ const NavContainer = () => {
             >
                 Contact
             </NavLink>
+            <a
+                className="nav-item-resume"
+                href="https://drive.google.com/file/d/10jd6cWjZHgoWbENlPFk1EYFnAvARukwd/view?usp=sharing"
+                target="_blank"
+                download
+            >
+                Resume
+            </a>                
         </div>
     </div>
   );
