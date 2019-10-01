@@ -51,26 +51,27 @@
     float: left;
     padding-left: 50px;
     justify-content: center;
+    opacity: 1;
 }
 
 .bio {
+    display: flex;
     top: 80%;
     position: absolute;
     background-color: darkorange;
     padding: 30px;
     align-items: center;
+    justify-content: space-evenly;
     vertical-align: middle;
     overflow: hidden;
     border-top: 2px solid white;
     border-bottom: 2px solid white;
-    opacity: 0.9;
+    opacity: 0.85;
 }
 
 .photo {
-    object-position: 50% 50%;
     width: 45%;
     height: auto;
-    object-fit: cover;
     float: right;
     /* opacity: 0.9; */
     border: 1px solid white;
@@ -89,4 +90,9 @@
 .bio-content h2 {
     font-family: 'Merriweather', serif;
     font-size: 3vw;
+}
+
+.bio-line {
+    border: 2px solid darkolivegreen;
+
 }

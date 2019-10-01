@@ -26,6 +26,7 @@ const Home = () => {
       <div className="bio">
         <span className="bio-content">
           <h2>About Me</h2>
+          <hr className="bio-line"></hr>
           <p>My passions lie at the intersection of technology, data, and on-the-ground land conservation and management.
           I work to build and promote novel modeling technologies that bolster the capacity of agriculturalists, foresters, and ranchers to manage their land and natural resources in ways that are efficient, profitable, and sustainable.
           </p>

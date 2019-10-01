@@ -1,0 +1,23 @@
+Company,Title,Location,Start_Year,End_Year,Description1,Description2,Description3,Description4
+Agrarian Labs,Data Strategist,"Denver, CO",2018,2019,"Provided real-time monitoring, novel analytics, and visualizations of
+agronomic, machine utilization, and spatial data that improved the
+efficiency and profitability of operations for over 20 large-scale farms.","Optimized and streamlined client-facing data delivery from nearly 100
+underutilized reports to 5 actionable Tableau dashboards of KPIs and metrics, improving usability and year-to-year client retention.",,
+Yale University,Postgraduate Fellow in Tropical Forest Conservation,"Pitakele, Sri Lanka",2017,2018,"Recorded, measured, and managed a traditional Sri Lankan tree garden.","Contributed to an electronic guidebook on indigenous silviculture,
+agroforestry, and international development.","Constructed a tea plantation to be used as a demonstration site and
+educational resource at a tropical field research station.","Conducted interviews with 30 village families to gain in-depth knowledge
+of local agricultural practices and tree garden cultivation."
+Yale University,"Research Assistant, Ashton Silviculture and Forest Ecology Lab","Eastford, CT",2017,2017,"Collected tree measurement data to monitor the response of understory plant diversity to unique
+microsite position and degree of disturbance within gaps.","Analyzed regeneration at four sites with distinct distinct soil types and topographic positions across New
+England.","Examined the effects of herbicide applications and ground-level disturbances of varying intensities on the
+growth and competitiveness of common northeastern invasive plant species.",
+The Yale School Forests,Apprentice Forester,"Eastford, CT",2017,2017,"Prescribed silvicultural treatments and marked timber harvests to meet the ecological, financial, and
+educational goals of an 11,000-acre forest.","Performed long-term and operational forest inventories, conducted road and trail evaluations and
+maintenance, and marked property and forest stand boundaries.",,
+New Canaan Land Trust,Geospatial and Cartographic Consultant,"New Canaan, CT",2016,2017,"Designed a map of land trust properties and land holdings, which will be disseminated to town members
+in print and housed on the group’s website as an ArcGIS Story Map.",Conducted financial analyses to examine the benefits of open space to the New Canaan community.,"Used municipal taxlot and ecological data to assess the suitability of land parcels for purchase and
+determine priority land for future open space acquisitions.",
+Ucross High Plains Stewardship Initiative,Geospatial Researcher,"New Haven, CT",2016,2017,"Consulted with the TomKat Foundation and western ranchers to produce the first map of ecologically
+regenerative rangelands in the United States.","Researched threats to the greater sage-grouse within its current range and created an ArcGIS Story Map
+outlining species-specific conservation challenges.",Assisted the development of a real-time sagebrush monitoring platform in ArcGIS and Google Earth.,
+Ecotrust,Forestry and Ecosystem Services Intern,"Portland, OR",2016,2016,Spatially tracked forest harvest intensity in the Pacific NW using remotely-sensed data.,Used geospatial software to estimate landscape-level effects of management regime shifts in industrial forest companies on the abundance of Pacific NW forest resources.,Compared carbon storage and wood production potential of forestland managed to FSC standards with commonly used industrial management practices.,Surveyed users of an online forest mapping and growth-and-yield modeling tool to better understand and market to the tool’s audience and inform feature development.

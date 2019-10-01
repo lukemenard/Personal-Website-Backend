@@ -10,8 +10,12 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: 0
+    z-index: 0;
 }
+
+/* .hero-image:hover {
+    opacity: 0.5;
+} */
 
 #root {
     text-align: center;
