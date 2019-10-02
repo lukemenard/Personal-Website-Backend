@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './Home.css'
 import ExpertiseContainer from '../expertise/ExpertiseContainer'
-import Photo from '../../Assets/Luke.jpg'
+import Photo from '../../Assets/Luke2.JPG'
 import Timeline from 'react-timeline-semantic-ui';
 import ScrollAnimation from 'react-animate-on-scroll';
 
@@ -56,6 +56,8 @@ class Home extends Component {
           </span>
           <img className="photo" src={Photo} alt=""/>
         </div>
+
+        <div class="hero-image-2"></div>
 
         <div className="page-title">
           My Journey

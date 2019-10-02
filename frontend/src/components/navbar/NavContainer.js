@@ -13,7 +13,7 @@ const NavContainer = () => {
                 id="home"
                 to="/"
             >
-                Home
+                About
             </NavLink>
             <NavLink
                 className="nav-item"

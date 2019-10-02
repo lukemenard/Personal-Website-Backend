@@ -5,17 +5,13 @@ body, html {
 
 .hero-image {
     background-image: url('./Assets/SL.jpeg');
-    height: 10000px;
+    height: 6000px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 0;
 }
-
-/* .hero-image:hover {
-    opacity: 0.5;
-} */
 
 #root {
     text-align: center;

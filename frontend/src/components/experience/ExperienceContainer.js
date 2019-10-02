@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import ExperienceCardList from './ExperienceCardList'
+import Photo from '../../Assets/SL2.jpg'
 
 const experiencesURL = "http://localhost:3000/experiences"
 
