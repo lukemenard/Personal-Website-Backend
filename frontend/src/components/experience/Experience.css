@@ -3,7 +3,7 @@
     justify-content: center;
 }
 
-.page-title{
+.experience-page-title{
     top: 30%;
     font-family: 'Merriweather', serif;
     position: absolute;
@@ -11,8 +11,8 @@
     font-size: 8vw;
 }
 
-.experience-title-line {
-    border: 3px solid darkorange;
+.experience-page-title-line {
+    border: 5px solid darkorange;
     width: 75%;
 }
 
@@ -28,11 +28,12 @@
 }
 
 .ui.card.experience-card {
-    margin: 30px;
+    margin: 30px !important;
     width: 400px;
     height: 800px;
     border: 5px solid darkolivegreen;
     box-shadow: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
     /* width: 40%; */
 }
 
@@ -70,6 +71,7 @@ h3 {
 h3.title {
     font-style: italic;
     font-family: 'Montserrat', sans-serif;
+    margin: 5px;
 }
 
 h4 {

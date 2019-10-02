@@ -7,9 +7,9 @@ class ExperienceCardList extends React.Component {
         const { experiences } = this.props
         return(
             <div className="experience-container">
-                <div className="page-title">
+                <div className="experience-page-title">
                         Experience
-                        <hr className="experience-title-line"></hr>
+                        <hr className="experience-page-title-line"></hr>
                 </div>
                 <div className="experience-card-list">
                     {experiences.map(experience =>
