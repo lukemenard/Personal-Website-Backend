@@ -82,4 +82,4 @@ production:
   <<: *default
   database: lumen_production
   username: lumen
-  password: <%= ENV['LUMEN_DATABASE_PASSWORD'] %>
+  # password: <%= ENV['LUMEN_DATABASE_PASSWORD'] %>
