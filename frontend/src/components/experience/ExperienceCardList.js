@@ -5,7 +5,7 @@ import './Experience.css'
 class ExperienceCardList extends React.Component {
     render(){
         const { experiences } = this.props
-        return(
+        return (
             <div className="experience-container">
                 <div className="experience-page-title">
                         Experience

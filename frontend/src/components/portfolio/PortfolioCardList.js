@@ -1,13 +1,27 @@
-import React from 'react'
+import React, { Component } from 'react'
 import PortfolioCard from './PortfolioCard'
 
-const PortfolioCardList = () => {
-    return(
-        <div>
-            <h3>Portfolio Card List</h3>
-            <PortfolioCard />       
-        </div>
-    )
+class PortfolioCardList extends Component {
+    render() {
+        const { projects } = this.props
+        return (
+            <div className="portfolio-container">
+                <div className="portfolio-page-title">
+                        Work Portfolio
+                        <hr className="portfolio-page-title-line"></hr>
+                </div>
+                <div className="portfolio-card-list">
+                    {projects.map(project => (
+                        <PortfolioCard
+                            key={project.id}
+                            project={project}
+                        />
+                    )
+                    )}     
+                </div>
+            </div>
+        )
+    }
 }
 
 export default PortfolioCardList

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Image, Card } from 'semantic-ui-react'
+import { Image, Card } from 'semantic-ui-react'
 import './Experience.css'
 
 const ExperienceCard = props => {

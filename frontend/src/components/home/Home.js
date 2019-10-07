@@ -57,7 +57,7 @@ class Home extends Component {
           <img className="photo" src={Photo} alt=""/>
         </div>
 
-        <div class="hero-image-2"></div>
+        <div className="hero-image-2"></div>
 
         <div className="page-title">
           My Journey

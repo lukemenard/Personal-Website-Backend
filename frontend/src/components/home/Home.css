@@ -76,11 +76,12 @@
     float: left;
     padding-left: 50px;
     justify-content: center;
+    margin-top: 5px;
 }
 
 .bio {
     display: flex;
-    top: 80%;
+    top: 85%;
     position: absolute;
     background-color: darkorange;
     padding: 30px;

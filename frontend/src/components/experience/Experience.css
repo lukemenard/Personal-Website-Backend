@@ -9,11 +9,13 @@
     position: absolute;
     color: white;
     font-size: 8vw;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .experience-page-title-line {
     border: 5px solid darkorange;
     width: 75%;
+    box-shadow: 2px 2px 4px #000000 !important;
 }
 
 .experience-card-list {
@@ -34,7 +36,7 @@
     border: 5px solid darkolivegreen;
     box-shadow: none;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
-    /* width: 40%; */
+    border-radius: 20px;
 }
 
 .experience-card-content {
@@ -59,12 +61,14 @@ h1 {
     padding-right: 5px;
     color: darkorange;
     font-family: 'Merriweather', serif;
+    text-shadow: 1px 1px 2px black;
 }
 h3 {
     margin-top: 10px !important;
     padding-left: 5px;
     padding-right: 5px;
     font-family: 'Montserrat', sans-serif;
+    text-shadow: .5px .5px 1px black;
 
 }
 
@@ -79,11 +83,14 @@ h4 {
     margin-bottom: 0px;
     color: white;
     font-family: 'Montserrat', sans-serif;
+    text-shadow: .5px .5px 1px black;
 }
 
 p{
     color: white;
     margin-bottom: 30px !important;
+    text-shadow: .5px .5px 1px black;
+
 }
 
 .work-description {
@@ -91,6 +98,8 @@ p{
     align-content: stretch;
     max-height: 225px;
     overflow-y: auto;
+    text-shadow: .5px .5px 1px gray;
+
 }
 
 li {
